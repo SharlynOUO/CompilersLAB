@@ -1,0 +1,629 @@
+digraph tree1 {
+	nd12 [label=Number]
+	nd11 [label=IntConst]
+	nd12 -> nd11
+	0 [label=10]
+	nd11 -> 0
+	nd13 [label=PrimaryExp]
+	nd13 -> nd12
+	nd14 [label=UnaryExp]
+	nd14 -> nd13
+	nd15 [label=MulExp]
+	nd15 -> nd14
+	nd17 [label=AddExp]
+	nd17 -> nd15
+	nd18 [label=ConstExp]
+	nd18 -> nd17
+	nd19 [label=ArrDimDef]
+	nd16 [label=RSQUBRAKT]
+	nd19 -> nd16
+	1 [label="]"]
+	nd16 -> 1
+	nd19 -> nd18
+	nd10 [label=LSQUBRAKT]
+	nd19 -> nd10
+	2 [label="["]
+	nd10 -> 2
+	nd9 [label=ArrDimDef]
+	nd19 -> nd9
+	nd22 [label=Number]
+	nd21 [label=IntConst]
+	nd22 -> nd21
+	3 [label=10]
+	nd21 -> 3
+	nd23 [label=PrimaryExp]
+	nd23 -> nd22
+	nd24 [label=UnaryExp]
+	nd24 -> nd23
+	nd25 [label=MulExp]
+	nd25 -> nd24
+	nd27 [label=AddExp]
+	nd27 -> nd25
+	nd28 [label=ConstExp]
+	nd28 -> nd27
+	nd29 [label=ArrDimDef]
+	nd26 [label=RSQUBRAKT]
+	nd29 -> nd26
+	4 [label="]"]
+	nd26 -> 4
+	nd29 -> nd28
+	nd20 [label=LSQUBRAKT]
+	nd29 -> nd20
+	5 [label="["]
+	nd20 -> 5
+	nd29 -> nd19
+	nd32 [label=Number]
+	nd31 [label=IntConst]
+	nd32 -> nd31
+	6 [label=10]
+	nd31 -> 6
+	nd33 [label=PrimaryExp]
+	nd33 -> nd32
+	nd34 [label=UnaryExp]
+	nd34 -> nd33
+	nd35 [label=MulExp]
+	nd35 -> nd34
+	nd37 [label=AddExp]
+	nd37 -> nd35
+	nd38 [label=ConstExp]
+	nd38 -> nd37
+	nd39 [label=ArrDimDef]
+	nd36 [label=RSQUBRAKT]
+	nd39 -> nd36
+	7 [label="]"]
+	nd36 -> 7
+	nd39 -> nd38
+	nd30 [label=LSQUBRAKT]
+	nd39 -> nd30
+	8 [label="["]
+	nd30 -> 8
+	nd39 -> nd29
+	nd41 [label=VarDef]
+	nd41 -> nd39
+	nd8 [label=Identifier]
+	nd41 -> nd8
+	9 [label=b]
+	nd8 -> 9
+	nd46 [label=VarDef]
+	nd44 [label=ArrDimDef]
+	nd46 -> nd44
+	nd43 [label=Identifier]
+	nd46 -> nd43
+	10 [label=a]
+	nd43 -> 10
+	nd47 [label=MutiVarDecl]
+	nd47 -> nd46
+	nd40 [label=COMMA]
+	nd47 -> nd40
+	11 [label=","]
+	nd40 -> 11
+	nd42 [label=MutiVarDecl]
+	nd47 -> nd42
+	nd48 [label=VarDecl]
+	nd45 [label=SEMICOLON]
+	nd48 -> nd45
+	12 [label=";"]
+	nd45 -> 12
+	nd48 -> nd47
+	nd48 -> nd41
+	nd7 [label=INT]
+	nd48 -> nd7
+	13 [label=int]
+	nd7 -> 13
+	nd49 [label=Decl]
+	nd49 -> nd48
+	nd50 [label=BlockItem]
+	nd50 -> nd49
+	nd51 [label=MutiBlockItem]
+	nd51 -> nd50
+	nd6 [label=MutiBlockItem]
+	nd51 -> nd6
+	nd56 [label=Number]
+	nd55 [label=IntConst]
+	nd56 -> nd55
+	14 [label=2]
+	nd55 -> 14
+	nd57 [label=PrimaryExp]
+	nd57 -> nd56
+	nd58 [label=UnaryExp]
+	nd58 -> nd57
+	nd59 [label=MulExp]
+	nd59 -> nd58
+	nd61 [label=AddExp]
+	nd61 -> nd59
+	nd62 [label=Exp]
+	nd62 -> nd61
+	nd63 [label=ArrParam]
+	nd60 [label=RSQUBRAKT]
+	nd63 -> nd60
+	15 [label="]"]
+	nd60 -> 15
+	nd63 -> nd62
+	nd53 [label=LSQUBRAKT]
+	nd63 -> nd53
+	16 [label="["]
+	nd53 -> 16
+	nd54 [label=ArrParam]
+	nd63 -> nd54
+	nd66 [label=Number]
+	nd65 [label=IntConst]
+	nd66 -> nd65
+	17 [label=2]
+	nd65 -> 17
+	nd67 [label=PrimaryExp]
+	nd67 -> nd66
+	nd68 [label=UnaryExp]
+	nd68 -> nd67
+	nd69 [label=MulExp]
+	nd69 -> nd68
+	nd71 [label=AddExp]
+	nd71 -> nd69
+	nd72 [label=Exp]
+	nd72 -> nd71
+	nd73 [label=ArrParam]
+	nd70 [label=RSQUBRAKT]
+	nd73 -> nd70
+	18 [label="]"]
+	nd70 -> 18
+	nd73 -> nd72
+	nd64 [label=LSQUBRAKT]
+	nd73 -> nd64
+	19 [label="["]
+	nd64 -> 19
+	nd73 -> nd63
+	nd76 [label=Number]
+	nd75 [label=IntConst]
+	nd76 -> nd75
+	20 [label=2]
+	nd75 -> 20
+	nd77 [label=PrimaryExp]
+	nd77 -> nd76
+	nd78 [label=UnaryExp]
+	nd78 -> nd77
+	nd79 [label=MulExp]
+	nd79 -> nd78
+	nd81 [label=AddExp]
+	nd81 -> nd79
+	nd82 [label=Exp]
+	nd82 -> nd81
+	nd83 [label=ArrParam]
+	nd80 [label=RSQUBRAKT]
+	nd83 -> nd80
+	21 [label="]"]
+	nd80 -> 21
+	nd83 -> nd82
+	nd74 [label=LSQUBRAKT]
+	nd83 -> nd74
+	22 [label="["]
+	nd74 -> 22
+	nd83 -> nd73
+	nd85 [label=LVal]
+	nd85 -> nd83
+	nd52 [label=Identifier]
+	nd85 -> nd52
+	23 [label=b]
+	nd52 -> 23
+	nd87 [label=Number]
+	nd86 [label=IntConst]
+	nd87 -> nd86
+	24 [label=10]
+	nd86 -> 24
+	nd88 [label=PrimaryExp]
+	nd88 -> nd87
+	nd89 [label=UnaryExp]
+	nd89 -> nd88
+	nd90 [label=MulExp]
+	nd90 -> nd89
+	nd92 [label=AddExp]
+	nd92 -> nd90
+	nd93 [label=Exp]
+	nd93 -> nd92
+	nd94 [label=Stmt]
+	nd91 [label=SEMICOLON]
+	nd94 -> nd91
+	25 [label=";"]
+	nd91 -> 25
+	nd94 -> nd93
+	nd84 [label=ASSIGN]
+	nd94 -> nd84
+	26 [label="="]
+	nd84 -> 26
+	nd94 -> nd85
+	nd95 [label=BlockItem]
+	nd95 -> nd94
+	nd96 [label=MutiBlockItem]
+	nd96 -> nd95
+	nd96 -> nd51
+	nd100 [label=LVal]
+	nd99 [label=ArrParam]
+	nd100 -> nd99
+	nd97 [label=Identifier]
+	nd100 -> nd97
+	27 [label=a]
+	nd97 -> 27
+	nd105 [label=Number]
+	nd104 [label=IntConst]
+	nd105 -> nd104
+	28 [label=2]
+	nd104 -> 28
+	nd106 [label=PrimaryExp]
+	nd106 -> nd105
+	nd107 [label=UnaryExp]
+	nd107 -> nd106
+	nd108 [label=MulExp]
+	nd108 -> nd107
+	nd110 [label=AddExp]
+	nd110 -> nd108
+	nd111 [label=Exp]
+	nd111 -> nd110
+	nd112 [label=ArrParam]
+	nd109 [label=RSQUBRAKT]
+	nd112 -> nd109
+	29 [label="]"]
+	nd109 -> 29
+	nd112 -> nd111
+	nd102 [label=LSQUBRAKT]
+	nd112 -> nd102
+	30 [label="["]
+	nd102 -> 30
+	nd103 [label=ArrParam]
+	nd112 -> nd103
+	nd115 [label=Number]
+	nd114 [label=IntConst]
+	nd115 -> nd114
+	31 [label=2]
+	nd114 -> 31
+	nd116 [label=PrimaryExp]
+	nd116 -> nd115
+	nd117 [label=UnaryExp]
+	nd117 -> nd116
+	nd118 [label=MulExp]
+	nd118 -> nd117
+	nd120 [label=AddExp]
+	nd120 -> nd118
+	nd121 [label=Exp]
+	nd121 -> nd120
+	nd122 [label=ArrParam]
+	nd119 [label=RSQUBRAKT]
+	nd122 -> nd119
+	32 [label="]"]
+	nd119 -> 32
+	nd122 -> nd121
+	nd113 [label=LSQUBRAKT]
+	nd122 -> nd113
+	33 [label="["]
+	nd113 -> 33
+	nd122 -> nd112
+	nd125 [label=Number]
+	nd124 [label=IntConst]
+	nd125 -> nd124
+	34 [label=2]
+	nd124 -> 34
+	nd126 [label=PrimaryExp]
+	nd126 -> nd125
+	nd127 [label=UnaryExp]
+	nd127 -> nd126
+	nd128 [label=MulExp]
+	nd128 -> nd127
+	nd130 [label=AddExp]
+	nd130 -> nd128
+	nd131 [label=Exp]
+	nd131 -> nd130
+	nd132 [label=ArrParam]
+	nd129 [label=RSQUBRAKT]
+	nd132 -> nd129
+	35 [label="]"]
+	nd129 -> 35
+	nd132 -> nd131
+	nd123 [label=LSQUBRAKT]
+	nd132 -> nd123
+	36 [label="["]
+	nd123 -> 36
+	nd132 -> nd122
+	nd134 [label=LVal]
+	nd134 -> nd132
+	nd101 [label=Identifier]
+	nd134 -> nd101
+	37 [label=b]
+	nd101 -> 37
+	nd135 [label=PrimaryExp]
+	nd135 -> nd134
+	nd136 [label=UnaryExp]
+	nd136 -> nd135
+	nd137 [label=MulExp]
+	nd137 -> nd136
+	nd138 [label=AddExp]
+	nd138 -> nd137
+	nd139 [label=Exp]
+	nd139 -> nd138
+	nd140 [label=Stmt]
+	nd133 [label=SEMICOLON]
+	nd140 -> nd133
+	38 [label=";"]
+	nd133 -> 38
+	nd140 -> nd139
+	nd98 [label=ASSIGN]
+	nd140 -> nd98
+	39 [label="="]
+	nd98 -> 39
+	nd140 -> nd100
+	nd141 [label=BlockItem]
+	nd141 -> nd140
+	nd142 [label=MutiBlockItem]
+	nd142 -> nd141
+	nd142 -> nd96
+	nd148 [label=LVal]
+	nd147 [label=ArrParam]
+	nd148 -> nd147
+	nd145 [label=Identifier]
+	nd148 -> nd145
+	40 [label=a]
+	nd145 -> 40
+	nd149 [label=PrimaryExp]
+	nd149 -> nd148
+	nd150 [label=UnaryExp]
+	nd150 -> nd149
+	nd151 [label=MulExp]
+	nd151 -> nd150
+	nd152 [label=AddExp]
+	nd152 -> nd151
+	nd153 [label=RelExp]
+	nd153 -> nd152
+	nd155 [label=Number]
+	nd154 [label=IntConst]
+	nd155 -> nd154
+	41 [label=0]
+	nd154 -> 41
+	nd156 [label=PrimaryExp]
+	nd156 -> nd155
+	nd157 [label=UnaryExp]
+	nd157 -> nd156
+	nd158 [label=MulExp]
+	nd158 -> nd157
+	nd160 [label=AddExp]
+	nd160 -> nd158
+	nd161 [label=RelExp]
+	nd161 -> nd160
+	nd146 [label=GRA]
+	nd161 -> nd146
+	42 [label=">"]
+	nd146 -> 42
+	nd161 -> nd153
+	nd162 [label=EqExp]
+	nd162 -> nd161
+	nd163 [label=LAndExp]
+	nd163 -> nd162
+	nd164 [label=LOrExp]
+	nd164 -> nd163
+	nd165 [label=Cond]
+	nd165 -> nd164
+	nd171 [label=LVal]
+	nd170 [label=ArrParam]
+	nd171 -> nd170
+	nd168 [label=Identifier]
+	nd171 -> nd168
+	43 [label=a]
+	nd168 -> 43
+	nd175 [label=LVal]
+	nd174 [label=ArrParam]
+	nd175 -> nd174
+	nd172 [label=Identifier]
+	nd175 -> nd172
+	44 [label=a]
+	nd172 -> 44
+	nd176 [label=PrimaryExp]
+	nd176 -> nd175
+	nd177 [label=UnaryExp]
+	nd177 -> nd176
+	nd178 [label=MulExp]
+	nd178 -> nd177
+	nd179 [label=AddExp]
+	nd179 -> nd178
+	nd181 [label=Number]
+	nd180 [label=IntConst]
+	nd181 -> nd180
+	45 [label=1]
+	nd180 -> 45
+	nd182 [label=PrimaryExp]
+	nd182 -> nd181
+	nd183 [label=UnaryExp]
+	nd183 -> nd182
+	nd184 [label=MulExp]
+	nd184 -> nd183
+	nd186 [label=AddExp]
+	nd186 -> nd184
+	nd173 [label=MINUS]
+	nd186 -> nd173
+	46 [label="-"]
+	nd173 -> 46
+	nd186 -> nd179
+	nd187 [label=Exp]
+	nd187 -> nd186
+	nd188 [label=Stmt]
+	nd185 [label=SEMICOLON]
+	nd188 -> nd185
+	47 [label=";"]
+	nd185 -> 47
+	nd188 -> nd187
+	nd169 [label=ASSIGN]
+	nd188 -> nd169
+	48 [label="="]
+	nd169 -> 48
+	nd188 -> nd171
+	nd189 [label=BlockItem]
+	nd189 -> nd188
+	nd190 [label=MutiBlockItem]
+	nd190 -> nd189
+	nd167 [label=MutiBlockItem]
+	nd190 -> nd167
+	nd196 [label=LVal]
+	nd195 [label=ArrParam]
+	nd196 -> nd195
+	nd193 [label=Identifier]
+	nd196 -> nd193
+	49 [label=a]
+	nd193 -> 49
+	nd197 [label=PrimaryExp]
+	nd197 -> nd196
+	nd198 [label=UnaryExp]
+	nd198 -> nd197
+	nd199 [label=MulExp]
+	nd199 -> nd198
+	nd200 [label=AddExp]
+	nd200 -> nd199
+	nd201 [label=RelExp]
+	nd201 -> nd200
+	nd202 [label=EqExp]
+	nd202 -> nd201
+	nd204 [label=Number]
+	nd203 [label=IntConst]
+	nd204 -> nd203
+	50 [label=5]
+	nd203 -> 50
+	nd205 [label=PrimaryExp]
+	nd205 -> nd204
+	nd206 [label=UnaryExp]
+	nd206 -> nd205
+	nd207 [label=MulExp]
+	nd207 -> nd206
+	nd209 [label=AddExp]
+	nd209 -> nd207
+	nd210 [label=RelExp]
+	nd210 -> nd209
+	nd211 [label=EqExp]
+	nd211 -> nd210
+	nd194 [label=EQ]
+	nd211 -> nd194
+	51 [label="=="]
+	nd194 -> 51
+	nd211 -> nd202
+	nd212 [label=LAndExp]
+	nd212 -> nd211
+	nd213 [label=LOrExp]
+	nd213 -> nd212
+	nd214 [label=Cond]
+	nd214 -> nd213
+	nd217 [label=Stmt]
+	nd216 [label=SEMICOLON]
+	nd217 -> nd216
+	52 [label=";"]
+	nd216 -> 52
+	nd215 [label=BREAK]
+	nd217 -> nd215
+	53 [label=break]
+	nd215 -> 53
+	nd219 [label=Stmt]
+	nd219 -> nd217
+	nd208 [label=RPAREN]
+	nd219 -> nd208
+	54 [label=")"]
+	nd208 -> 54
+	nd219 -> nd214
+	nd192 [label=LPAREN]
+	nd219 -> nd192
+	55 [label="("]
+	nd192 -> 55
+	nd191 [label=IF]
+	nd219 -> nd191
+	56 [label=if]
+	nd191 -> 56
+	nd220 [label=BlockItem]
+	nd220 -> nd219
+	nd221 [label=MutiBlockItem]
+	nd221 -> nd220
+	nd221 -> nd190
+	nd222 [label=FuncRParams]
+	nd218 [label=RBRACE]
+	nd222 -> nd218
+	57 [label="}"]
+	nd218 -> 57
+	nd222 -> nd221
+	nd166 [label=LBRACE]
+	nd222 -> nd166
+	58 [label="{"]
+	nd166 -> 58
+	nd223 [label=Stmt]
+	nd223 -> nd222
+	nd224 [label=Stmt]
+	nd224 -> nd223
+	nd159 [label=RPAREN]
+	nd224 -> nd159
+	59 [label=")"]
+	nd159 -> 59
+	nd224 -> nd165
+	nd144 [label=LPAREN]
+	nd224 -> nd144
+	60 [label="("]
+	nd144 -> 60
+	nd143 [label=WHILE]
+	nd224 -> nd143
+	61 [label=while]
+	nd143 -> 61
+	nd225 [label=BlockItem]
+	nd225 -> nd224
+	nd226 [label=MutiBlockItem]
+	nd226 -> nd225
+	nd226 -> nd142
+	nd231 [label=LVal]
+	nd230 [label=ArrParam]
+	nd231 -> nd230
+	nd228 [label=Identifier]
+	nd231 -> nd228
+	62 [label=a]
+	nd228 -> 62
+	nd232 [label=PrimaryExp]
+	nd232 -> nd231
+	nd233 [label=UnaryExp]
+	nd233 -> nd232
+	nd234 [label=MulExp]
+	nd234 -> nd233
+	nd235 [label=AddExp]
+	nd235 -> nd234
+	nd236 [label=Exp]
+	nd236 -> nd235
+	nd237 [label=Stmt]
+	nd229 [label=SEMICOLON]
+	nd237 -> nd229
+	63 [label=";"]
+	nd229 -> 63
+	nd237 -> nd236
+	nd227 [label=RETURN]
+	nd237 -> nd227
+	64 [label=return]
+	nd227 -> 64
+	nd238 [label=BlockItem]
+	nd238 -> nd237
+	nd239 [label=MutiBlockItem]
+	nd239 -> nd238
+	nd239 -> nd226
+	nd241 [label=FuncRParams]
+	nd240 [label=RBRACE]
+	nd241 -> nd240
+	65 [label="}"]
+	nd240 -> 65
+	nd241 -> nd239
+	nd5 [label=LBRACE]
+	nd241 -> nd5
+	66 [label="{"]
+	nd5 -> 66
+	nd242 [label=FuncDef]
+	nd242 -> nd241
+	nd4 [label=RPAREN]
+	nd242 -> nd4
+	67 [label=")"]
+	nd4 -> 67
+	nd3 [label=LPAREN]
+	nd242 -> nd3
+	68 [label="("]
+	nd3 -> 68
+	nd2 [label=Identifier]
+	nd242 -> nd2
+	69 [label=main]
+	nd2 -> 69
+	nd1 [label=INT]
+	nd242 -> nd1
+	70 [label=int]
+	nd1 -> 70
+	nd243 [label=CompUnit]
+	nd243 -> nd242
+}
